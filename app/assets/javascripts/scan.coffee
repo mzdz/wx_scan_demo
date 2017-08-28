@@ -14,7 +14,7 @@ $(document).on "turbolinks:load", () ->
 #        alert(result)
     wx.onMenuShareTimeline
       title: '这是分享到朋友圈的标题'
-      link: 'https://wx.kuaiyunma.com'
+      link: 'https://wx2.kuaiyunma.com'
       imgUrl: 'https://wx2.kuaiyunma.com/img/share.jpg'
       success: ->
         alert("你分享成功了:)")
@@ -23,9 +23,8 @@ $(document).on "turbolinks:load", () ->
     wx.onMenuShareAppMessage
       title: '这是分享给朋友的标题'
       desc: '分享给朋友，说点啥呢？'
-      link: 'https://wx.kuaiyunma.com'
+      link: 'https://wx2.kuaiyunma.com'
       imgUrl: 'https://wx2.kuaiyunma.com/img/share.jpg'
-      type: 'link'
       success: ->
         alert("你分享成功了:)")
       cancel: ->
