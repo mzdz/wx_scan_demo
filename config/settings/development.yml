@@ -1,0 +1,5 @@
+app:
+  wechat:
+    appid: xxx
+    appsecret: xxx
+    token: xxx
