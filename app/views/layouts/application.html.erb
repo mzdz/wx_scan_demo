@@ -4,6 +4,7 @@
     <title>Wechat Demo</title>
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'https://res.wx.qq.com/open/js/jweixin-1.2.0.js' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_tag do %>
         var jssdk_config = <%= @jssdk_config.to_json.html_safe -%>;
