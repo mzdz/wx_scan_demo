@@ -9,6 +9,7 @@
     <%= javascript_tag do %>
         var jssdk_config = <%= @jssdk_config.to_json.html_safe -%>;
     <% end %>
+    <link href=./static/css/app.1ae366047a8c935f53324c612ed99f73.css rel=stylesheet>
   </head>
   <body>
     <%= yield %>

@@ -6,12 +6,6 @@ $(document).on "turbolinks:load", () ->
     signature: jssdk_config.signature
     jsApiList: ["onMenuShareAppMessage", "onMenuShareTimeline"]
   wx.ready () ->
-#    wx.scanQRCode
-#      needResult: 1
-#      scanType: ["qrCode"]
-#      success: (res) ->
-#        result = res.resultStr
-#        alert(result)
     wx.onMenuShareTimeline
       title: '这是分享到朋友圈的标题'
       link: 'https://wx2.kuaiyunma.com'
